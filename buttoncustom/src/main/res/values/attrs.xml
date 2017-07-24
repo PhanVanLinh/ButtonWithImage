@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ButtonCustom">
+        <!-- Title -->
+        <attr format="string" name="bc_title"/>
+        <attr format="color" name="bc_titleColor"/>
+        <attr format="dimension" name="bc_titleSize"/>
+        <attr format="dimension" name="bc_titleMarginStart"/>
+        <!-- Drawable -->
+        <attr format="reference" name="bc_leftDrawable"/>
+        <attr format="dimension" name="bc_drawableWidth"/>
+        <attr format="dimension" name="bc_drawableHeight"/>
+        <!-- Background -->
+        <attr format="color" name="bc_disableBackgroundColor"/>
+        <!-- Border -->
+        <attr format="dimension" name="bc_borderWidth"/>
+        <attr format="color" name="bc_borderColor"/>
+        <attr format="color" name="bc_disableBorderColor"/>
+        <!-- Corner -->
+        <attr format="dimension" name="bc_corner"/>
+        <attr format="dimension" name="bc_cornerTopLeft"/>
+        <attr format="dimension" name="bc_cornerTopRight"/>
+        <attr format="dimension" name="bc_cornerBottomRight"/>
+        <attr format="dimension" name="bc_cornerBottomLeft"/>
+        <!-- Alpha -->
+        <attr format="float" name="bc_pressed_alpha"/>
+        <attr format="float" name="bc_selected_alpha"/>
+        <attr format="float" name="bc_disabled_alpha"/>
+    </declare-styleable>
+</resources>
